@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Scrape Numpy",
+            "type": "python",
+            "request": "launch",
+            "program": "scrape_lib.py",
+            "console": "integratedTerminal",
+            "args": [".venv/lib/site-packages/numpy", ".venv/lib/site-packages", "numpy"]
+        }
+    ]
+}
